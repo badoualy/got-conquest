@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/infosButton"
+        android:checkable="false"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Infos"
+        android:titleCondensed="Infos"
+        android:visible="true">
+    </item>
+
+</menu>

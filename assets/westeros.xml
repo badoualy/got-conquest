@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<kingdom name="Beyond the Wall" reinforcements="2">
+		<city name="The Land of always Winter" x="65" y="25" /> <!-- 0 -->
+		<city name="The Frozen Shore" x="178" y="49" />
+		<city name="The Haunted Forest" x="352" y="66" />
+	</kingdom>
+	<kingdom name="The North" reinforcements="3">
+		<city name="Shadow Tower" x="342" y="151" /> <!-- 3 -->
+		<city name="Karhold" x="459" y="246" />
+		<city name="Winterfell" x="260" y="270" />
+		<city name="Hornwood" x="365" y="372" />
+		<city name="Deepwood Motte" x="138" y="275" />
+		<city name="Barrowton" x="195" y="424" />
+		<city name="Greywater Watch" x="243" y="520" />
+		<city name="Flint's Finger" x="102" y="560" />
+	</kingdom>
+	<kingdom name="The Vale" reinforcements="3">
+		<city name="Coldwater" x="361" y="626" /> <!-- 11 -->
+		<city name="The Bloody Gate" x="405" y="695" />
+		<city name="Gulltown" x="502" y="715" />
+		<city name="Wickenden" x="425" y="760" />
+	</kingdom>
+	<kingdom name="Riverlands" reinforcements="2">
+		<city name="The twins" x="239" y="698" /> <!-- 15 -->
+		<city name="Maidenpool" x="312" y="805" />
+		<city name="High Heart" x="215" y="834" />
+		<city name="Riverrun" x="172" y="810" />
+	</kingdom>
+	<kingdom name="The Westerlands" reinforcements="3">
+		<city name="Ashemark" x="120" y="812" /> <!-- 19 -->
+		<city name="Silverhill" x="170" y="916" />
+		<city name="Casterly Rock" x="76" y="853" />
+		<city name="Lannisport" x="82" y="934" />
+	</kingdom>
+	<kingdom name="Iron Islands" reinforcements="2">
+		<city name="Orkmont" x="62" y="678" /> <!-- 23 -->
+		<city name="Great Wyk" x="19" y="710" />
+		<city name="Pyke" x="55" y="738" />
+		<city name="Harlaw" x="93" y="713" />
+	</kingdom>
+	<kingdom name="Crownlands" reinforcements="2">
+		<city name="Crackclaw Point" x="412" y="839" /> <!-- 27 -->
+		<city name="Duskendale" x="383" y="886" />
+		<city name="King's Landing" x="350" y="933" />
+	</kingdom>
+	<kingdom name="Stormlands" reinforcements="3">
+		<city name="Bronzegate" x="429" y="1006" /> <!-- 30 -->
+		<city name="Evenfall Hall" x="515" y="1012" />
+		<city name="Mistwood" x="446" y="1105" />
+		<city name="Blackhaven" x="333" y="1066" />
+	</kingdom>
+	<kingdom name="The Reach" reinforcements="6">
+		<city name="Tumbleton" x="241" y="980" /> <!-- 34 -->
+		<city name="Ashford" x="254" y="1046" />
+		<city name="Highgarden" x="190" y="1103" />
+		<city name="Old Oak" x="102" y="1041" />
+		<city name="Old Town" x="94" y="1197" />
+	</kingdom>
+	<kingdom name="Dorne" reinforcements="2">
+		<city name="Kingsgrave" x="246" y="1178" /> <!-- 39 -->
+		<city name="Blackmont" x="199" y="1216" />
+		<city name="Hellbolt" x="224" y="1275" />
+		<city name="Salt Shore" x="395" y="1255" />
+	</kingdom>
+
+	<front source="0" target="1" />
+	<front source="1" target="2" />
+	<front source="2" target="3" />
+	<front source="3" target="4" />
+	<front source="3" target="5" />
+	<front source="4" target="5" />
+	<front source="4" target="6" />
+	<front source="5" target="6" />
+	<front source="5" target="7" />
+	<front source="5" target="8" />
+	<front source="6" target="8" />
+	<front source="6" target="9" />
+	<front source="7" target="8" />
+	<front source="8" target="9" />
+	<front source="9" target="10" />
+	<front source="9" target="15" />
+	<front source="10" target="15" />
+	<front source="10" target="23" />
+
+	<front source="11" target="12" />
+	<front source="11" target="15" />
+	<front source="12" target="13" />
+	<front source="12" target="14" />
+	<front source="12" target="15" />
+	<front source="13" target="14" />
+
+	<front source="15" target="16" />
+	<front source="15" target="17" />
+	<front source="15" target="18" />
+	<front source="15" target="19" />
+	<front source="16" target="17" />
+	<front source="16" target="27" />
+	<front source="17" target="18" />
+	<front source="17" target="20" />
+	<front source="17" target="34" />
+	<front source="18" target="19" />
+
+	<front source="19" target="20" />
+	<front source="19" target="21" />
+	<front source="19" target="25" />
+	<front source="20" target="21" />
+	<front source="20" target="22" />
+	<front source="20" target="34" />
+	<front source="21" target="22" />
+	<front source="22" target="37" />
+
+	<front source="23" target="24" />
+	<front source="23" target="25" />
+	<front source="23" target="26" />
+	<front source="24" target="25" />
+	<front source="24" target="26" />
+	<front source="25" target="26" />
+
+	<front source="27" target="28" />
+	<front source="27" target="29" />
+	<front source="28" target="29" />
+	<front source="29" target="30" />
+	<front source="29" target="33" />
+	<front source="29" target="34" />
+	<front source="30" target="31" />
+	<front source="30" target="32" />
+	<front source="30" target="33" />
+	<front source="32" target="31" />
+	<front source="32" target="33" />
+	<front source="33" target="34" />
+	<front source="33" target="35" />
+	<front source="33" target="36" />
+	<front source="33" target="39" />
+
+	<front source="34" target="35" />
+	<front source="34" target="36" />
+	<front source="34" target="37" />
+	<front source="35" target="36" />
+	<front source="36" target="37" />
+	<front source="36" target="38" />
+	<front source="36" target="39" />
+	<front source="36" target="40" />
+	<front source="37" target="38" />
+	<front source="38" target="40" />
+
+	<front source="39" target="40" />
+	<front source="40" target="41" />
+	<front source="40" target="42" />
+	<front source="41" target="42" />
+</map>

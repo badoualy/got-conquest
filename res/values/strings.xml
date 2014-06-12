@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Westeros Conquest</string>
+    <string name="title">Westeros Conquest</string>
+
+    <string-array name="houses">
+        <item>Arryn</item>
+        <item>Tyrell</item>
+        <item>Baratheon</item>
+        <item>Martell</item>
+        <item>Tully</item>
+        <item>Lannister</item>
+        <item>Stark</item>
+        <item>Targaryen</item>
+    </string-array>
+    <string-array name="houses_colors">
+        <item>#548fda</item>
+        <item>#26d01d</item>
+        <item>#d2d14c</item>
+        <item>#daa553</item>
+        <item>#c453da</item>
+        <item>#df1b1b</item>
+        <item>#a9a9a9</item>
+        <item>#393939</item>
+    </string-array>
+
+    <string name="description">Westeros Conquest is a game based on original Risk\'s rules, adapted on Game of Thrones franchise.</string>
+    <string name="player">Player</string>
+    <string name="players">Players : </string>
+    <string name="available">available</string>
+    <string name="placereinforcements">Place reinforcements</string>
+    <string name="attackstep">Attack step</string>
+    <string name="movestep">Move step</string>
+    <string name="congrats">Congrats</string>
+    <string name="to">to</string>
+    <string name="movefrom">Move from</string>
+    <string name="youwon">you won, play again ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="lost">lost</string>
+    <string name="AI">AI</string>
+    <string name="nextturnreinforcements">Next turn reinforcement : </string>
+    <string name="ownedcities">Owned cities : </string>
+    <string name="ownedkingdoms">Owned kingdoms : </string>
+    <string name="totaltroops">Total troops : </string>
+    <string name="saveexist">A saved game exist</string>
+    <string name="saveexistdetails">A saved game exist in memory, load it ?</string>
+    <string name="credits">Images and content used are the property of their respective authors</string>
+    <string name="playerscount">Players count</string>
+    <string name="victories">Victories</string>
+    <string name="defeats">Defeats</string>
+    <string name="total">Total</string>
+    <string name="showstats">Show stats</string>
+    <string name="stats">Statistics</string>
+    <string name="checklinks">Check these links</string>
+    <string name="websites">You can check the links below to follow new updates and make suggestions or report bugs :</string>
+	<string name="about">About</string>
+    
+</resources>

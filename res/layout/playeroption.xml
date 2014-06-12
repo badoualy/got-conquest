@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playersOptionLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="-4dp"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/botBox"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/AI"
+        android:textColor="#3F3F3F"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@string/player"
+        android:layout_width="75dp"
+        android:layout_height="29dp"
+        android:background="@drawable/textedit"
+        android:maxLength="8"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Player 1"
+        android:textColor="#3F3F3F"
+        android:textSize="15dp" />
+
+    <Spinner
+        android:id="@+id/houseSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:entries="@array/houses"
+        android:paddingTop="2dp" />
+
+</LinearLayout>

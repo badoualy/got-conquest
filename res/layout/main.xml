@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash"
+    android:gravity="bottom|right"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="176dp"
+        android:layout_height="181dp"
+        android:background="@drawable/panel"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/newButton"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/newgame"
+            android:onClick="newGame" />
+
+        <Button
+            android:id="@+id/howButton"
+            android:layout_width="134dp"
+            android:layout_height="34dp"
+            android:layout_marginBottom="21dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/howtoplay"
+            android:onClick="howToPlay" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:gravity="bottom"
+        android:src="@drawable/credits"
+        android:contentDescription="@string/credits" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Westeros Conquest</string>
+    <string name="title">Westeros Conquest</string>
+
+    <string-array name="houses">
+        <item>Arryn</item>
+        <item>Tyrell</item>
+        <item>Baratheon</item>
+        <item>Martell</item>
+        <item>Tully</item>
+        <item>Lannister</item>
+        <item>Stark</item>
+        <item>Targaryen</item>
+    </string-array>
+    <string-array name="houses_colors">
+        <item>#548fda</item>
+        <item>#26d01d</item>
+        <item>#d2d14c</item>
+        <item>#daa553</item>
+        <item>#c453da</item>
+        <item>#df1b1b</item>
+        <item>#a9a9a9</item>
+        <item>#393939</item>
+    </string-array>
+
+    <string name="description">Westeros Conquest est basé sur les règles du jeu original Risk, adapté sur la franchise Game of Thrones</string>
+    <string name="player">Joueur</string>
+    <string name="players">Joueurs : </string>
+    <string name="available">disponible</string>
+    <string name="placereinforcements">Placer renforts</string>
+    <string name="attackstep">Phase d\'attaque</string>
+    <string name="movestep">Phase de déplacement</string>
+    <string name="congrats">Félicitation</string>
+    <string name="to">vers</string>
+    <string name="movefrom">Déplacer de</string>
+    <string name="youwon">vous avez gagné, rejouer ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="lost">a perdu</string>
+    <string name="AI">IA</string>
+    <string name="nextturnreinforcements">Renforts tour suivant : </string>
+    <string name="ownedcities">Villes contrôlées : </string>
+    <string name="ownedkingdoms">Royaumes contrôlées : </string>
+    <string name="totaltroops">Troupes totales : </string>
+    <string name="saveexist">Une sauvegarde existe</string>
+    <string name="saveexistdetails">Une partie sauvegardée existe, reprendre ?</string>
+    <string name="credits">Les images et le contenu utilisé sont la propriété de leurs auteurs respectifs</string>
+    <string name="playerscount">Nb joueurs</string>
+    <string name="victories">Victoire(s)</string>
+    <string name="defeats">Défaite(s)</string>
+    <string name="total">Total</string>
+    <string name="showstats">Voir stats</string>
+    <string name="stats">Statistiques</string>
+    <string name="checklinks">Visitez ces liens</string>
+    <string name="websites">Vous pouvez visiter les liens ci-dessous pour suivre les mises à jour ou reporter des bugs :</string>
+    <string name="about">À propos</string>
+
+</resources>
